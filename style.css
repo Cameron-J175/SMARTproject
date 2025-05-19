@@ -1,0 +1,84 @@
+body
+{
+background:black;
+  color:white;
+}
+
+.description{
+  text-align:center;
+  font-size: 14pt;
+  padding: 2%;
+}
+
+.description a{
+  color: dodgerblue;
+}
+
+h1{
+  text-align:center;
+  font-size: 50pt;
+  letter-spacing: -3px;
+}
+td
+{
+	width: 30px;
+	height: 30px;
+	border: solid 2px #888;
+	margin: 0px;
+	padding: 0px;
+	border-radius:5px;
+  background:white;
+}
+
+.grid{
+	margin: 0px auto;
+  background:white;
+}
+
+/* .btnStart{
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #777;
+    transition: .5s background-color;
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-left: -100px;
+    text-align: center;
+    box-sizing: border-box;
+  margin:0 auto;
+}
+
+.btnRestart
+{
+	background-color: #8247c2;
+	display: none;
+    margin-top: 50px;
+}
+
+.btnSnake
+{
+	border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #f86833;
+    transition: .5s background-color;
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size:20pt;
+}
+
+.score-header
+{
+  background-color:#333;
+  color:white;
+  margin: 0px auto;
+  width:530px;
+  padding: 20px;
+} */
