@@ -28,8 +28,29 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-.endGame {
+.buttonAlt {
     display: none;
+}
+
+.button {
+    width: 30%;
+    height: 15%;
+    font-size: 1.5rem;
+    background-color: purple;
+    color: white;
+    border: white solid 1px;
+}
+
+.endGame {
+    margin-left: 25%;
+    margin-bottom: 3%;
+    width: 50%;
+    height: 10%;
+    font-size: 1.5rem;
+    background-color: purple;
+    color: white;
+    border: white solid 1px;
+
 }
 
 .game {
