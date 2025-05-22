@@ -16,6 +16,56 @@ body {
     background: maroon;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.hiddenContainer {
+    display: flex;
+    color: white;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.hiddenBody div {
+    padding: 10%;
+    width: 30rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hiddenButton {
+    background: rgb(126, 2, 2);
+    width: 5%;
+    height: 1rem;
+    border: none;
+    border: rgb(133, 2, 2) solid 0.1px;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.funButton {
+    background-color: lightblue;
+    width: 25%;
+    margin-left: 37.5%;
+    font-size: 1rem;
+    margin-bottom: 1%;  
+}
+
 .container {
     display: flex;
     width: 850px;

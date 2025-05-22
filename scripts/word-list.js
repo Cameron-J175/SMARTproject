@@ -16,7 +16,7 @@ const wordList = [
         hint: "Derivative of x"
     },
     {
-        word: "x^2 + 3",
+        word: "x^2 + c",
         hint: "Integral of 2x (use spaces)"
     },
     {
@@ -40,7 +40,7 @@ const wordList = [
         hint: "Verily, 'tis most excellent."
     },
     {
-        word: "Louis Armstrong.",
+        word: "Louis Armstrong",
         hint: "I see trees of green."
     },
     {
@@ -101,7 +101,7 @@ const wordList = [
     },
     {
         word: "12",
-        hint: "How many letters are in the alphabet?"
+        hint: "How many characters are in the alphabet?"
     },
     {
         word: "A coffin",
@@ -113,7 +113,7 @@ const wordList = [
     },
     {
         word: "Water",
-        hint: "a complex of the first element on the periodic table and the eigth element."
+        hint: "a complex of the first element on the periodic table and the eighth element."
     },
     {
         word: "1904 Olympic Marathon",
@@ -256,7 +256,7 @@ const wordList = [
         hint: "A sentimental longing or wistful affection for the past."
     },
     {
-        word: "brilliant",
-        hint: "Exceptionally clever, talented, or impressive."
+        word: "H",
+        hint: "A letter in the alphabet."
     },
  ];
