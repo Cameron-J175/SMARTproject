@@ -97,7 +97,7 @@ const wordList = [
     },
     {
         word: "42",
-        hint: "The meaning of life, the univers, and everything."
+        hint: "The meaning of life, the universe, and everything."
     },
     {
         word: "12",
@@ -260,3 +260,38 @@ const wordList = [
         hint: "A letter in the alphabet."
     },
  ];
+
+ const babyList = [
+    {
+        word: "Hi",
+        hint: "A simple greeting"
+    },
+    {
+        word: "Blue",
+        hint: "The color of the sky"
+    },
+    {
+        word: "Rainbow",
+        hint: "All of the colors"
+    },
+    {
+        word: "Red",
+        hint: "The color of roses"
+    },
+    {
+        word: "Yellow",
+        hint: "The color of the Sun"
+    },
+    {
+        word: "2",
+        hint: "1 + 1"
+    },
+    {
+        word: "Sunday",
+        hint: "The first day of the week"
+    },
+    {
+        word: "Square",
+        hint: "A shape with four equal sides"
+    }
+ ]

@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Epic Hangman</title>
+    <title>Easy Mode</title>
     <link rel="stylesheet" href="style.css">
     <script src="scripts/word-list.js" defer></script>
-    <script src="scripts/script.js" defer></script>
+    <script src="scripts/easy.js" defer></script>
 </head>
 <body>
-    <button id="button" class="button" onclick="startGame()">Start Game</button>
-    <a href="easyMode.html"><button>Easy Mode</button></a>
-    <div id="game" class="game">
+    <button id="button" class="button" onclick="easyMode()">Baby Mode Start</button>
+    <div id="game" class="easyGame">
         <div class="buttonsContainer">
             <button id="buttonAlt" class="endGame" onclick="endGame()">End Game?</button>
             <button id="funButton" class="funButton" onclick="multipleTabs()">Want to see something fun?</button>

@@ -45,17 +45,14 @@ function endGame() {
     }
 }
 
-function multipleTabs() {
-    window.open("https://www.youtube.com/watch?v=Sa4dCWLibU8")
-    
-}
+
 
 function startGame() {
     
     let para = document.getElementById("game");
     para.classList.toggle("game");
-    let button = document.getElementById("button")
-    button.classList.toggle("buttonAlt")
+    let button = document.getElementById("button");
+    button.classList.toggle("buttonAlt");
 }
     
     const resetGame = () => {
@@ -97,7 +94,7 @@ function startGame() {
                     wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
                 }
             });
-        } else {
+        }  else {
             // If clicked letter doesn't exist then update the wrongGuessCount and hangman image
             wrongGuessCount++;
             hangmanImage.src = `images/hangman-${wrongGuessCount}.svg`;
@@ -108,6 +105,8 @@ function startGame() {
         // Calling gameOver function if any of these condition meets
         if(wrongGuessCount === maxGuesses) return gameOver(false);
         if(correctLetters.length === currentWord.length) return gameOver(true);
+
+        
     }
     
     // Creating keyboard buttons and adding event listeners

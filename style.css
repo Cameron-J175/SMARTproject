@@ -103,6 +103,10 @@ button {
 
 }
 
+.easyGame {
+    display: none;
+}
+
 .game {
     display: none;
 }
