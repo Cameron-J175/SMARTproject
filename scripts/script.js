@@ -45,14 +45,19 @@ function endGame() {
     }
 }
 
+function funTab() {
+    window.open("https://www.youtube.com/watch?v=oHg5SJYRHA0&list=PLK2OhNxdYXeAYLV1BpNXLwlHkZXSwfG0t")
+}
 
-
-function startGame() {
-    
+function startGame() { 
     let para = document.getElementById("game");
     para.classList.toggle("game");
     let button = document.getElementById("button");
     button.classList.toggle("buttonAlt");
+    let button1 = document.getElementById("button1");
+    button1.classList.toggle("buttonAlt");
+    let button2 = document.getElementById("button2");
+    button2.classList.toggle("buttonAlt");
 }
     
     const resetGame = () => {

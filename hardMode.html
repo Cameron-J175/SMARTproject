@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Epic Hangman</title>
+    <title>Easy Mode</title>
     <link rel="stylesheet" href="style.css">
     <script src="scripts/word-list.js" defer></script>
-    <script src="scripts/script.js" defer></script>
+    <script src="scripts/hard.js" defer></script>
 </head>
 <body>
-    <div class="mode-contaienr">
-        <button id="button" class="button" onclick="startGame()">Start Game</button>
-        <a id="button1"  href="easyMode.html"><button class="button">Easy Mode</button></a>
-        <a id="button2" href="hardMode.html"><button class="button">Pro Mode</button></a>
-    </div>
-    <div id="game" class="game">
+    <button id="button" class="button" onclick="hardMode()">Pro Mode Start</button>
+    <div id="game" class="easyGame">
         <div class="buttonsContainer">
             <button id="buttonAlt" class="endGame" onclick="endGame()">End Game?</button>
             <button id="funButton" class="funButton" onclick="funTab()">Want to see something fun?</button>
@@ -24,7 +20,7 @@
                 <img src="#" alt="gif">
                 <h4>Game Over!</h4>
                 <p>The correct word was: <b>rainbow</b></p>
-                <button class="play-again">Play Again</button>
+                <button class="play-again" onclick="resetGame()">Play Again</button>
             </div>
         </div>
         <div class="container">

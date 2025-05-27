@@ -13,14 +13,14 @@
     <div id="game" class="easyGame">
         <div class="buttonsContainer">
             <button id="buttonAlt" class="endGame" onclick="endGame()">End Game?</button>
-            <button id="funButton" class="funButton" onclick="multipleTabs()">Want to see something fun?</button>
+            <button id="funButton" class="funButton" onclick="funTab()">Want to see something fun?</button>
         </div>
         <div class="game-modal">
             <div class="content">
                 <img src="#" alt="gif">
                 <h4>Game Over!</h4>
                 <p>The correct word was: <b>rainbow</b></p>
-                <button class="play-again">Play Again</button>
+                <button class="play-again" onclick="resetGame()">Play Again</button>
             </div>
         </div>
         <div class="container">
@@ -32,7 +32,7 @@
                 <ul class="word-display"></ul>
                 <h4 class="hint-text">Hint: <b></b></h4>
                 <h4 class="guesses-text">Incorrect guesses: <b></b></h4>
-                <div class="keyboard" onkeypress="initGame(button, clickedLetter)"></div>
+                <div class="keyboard"></div>
             </div>
         </div>
         <a href="/hidden.html" target="_blank"><button class="hiddenButton"></button></a>

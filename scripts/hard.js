@@ -49,7 +49,7 @@ function funTab() {
     window.open("https://www.youtube.com/watch?v=oHg5SJYRHA0&list=PLK2OhNxdYXeAYLV1BpNXLwlHkZXSwfG0t")
 }
 
-function easyMode() {
+function hardMode() {
     let para = document.getElementById("game");
     para.classList.toggle("easyGame");
     let button = document.getElementById("button");
@@ -59,19 +59,19 @@ function easyMode() {
 const resetGame = () => {
     // Ressetting game variables and UI elements
     correctLetters = [];
-    wrongGuessCount = 0;
+    wrongGuessCount = 4;
     hangmanImage.src = "images/hangman-0.svg";
     guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
     wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join("");
     keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false);
     gameModal.classList.remove("show");
 
-    getRandomWord()
+    getRandomWord();
 }
 
 const getRandomWord = () => {
     // Selecting a random word and hint from the wordList
-    const { word, hint } = babyList[Math.floor(Math.random() * babyList.length)];
+    const { word, hint } = proList[Math.floor(Math.random() * proList.length)];
     currentWord = word.toUpperCase(); // Making currentWord as random word
     document.querySelector(".hint-text b").innerText = hint;
     resetGame();
@@ -108,12 +108,11 @@ const initGame = (button, clickedLetter) => {
     // Calling gameOver function if any of these condition meets
     if(wrongGuessCount === maxGuesses) return gameOver(false);
     if(correctLetters.length === currentWord.length) return gameOver(true);
-
     
 }
 
 // Creating keyboard buttons and adding event listeners
-for (let i = 48; i <= 96; i++) {
+for (let i = 40; i <= 96; i++) {
     const button = document.createElement("button");
     button.innerText = String.fromCharCode(i);
     keyboardDiv.appendChild(button);

@@ -293,5 +293,120 @@ const wordList = [
     {
         word: "Square",
         hint: "A shape with four equal sides"
+    },
+    {
+        word: "Triangle",
+        hint: "A shape with three sides"
+    }, 
+    {
+        word: "Circle",
+        hint: "A word with no sides"
+    },
+    {
+        word: "B",
+        hint: "The second letter in the alphabet"
+    },
+    {
+        word: "Green",
+        hint: "The color of grass"
+    },
+    {
+        word: "Gray",
+        hint: "The color of the sky on a stormy day"
+    },
+    {
+        word: "Grey",
+        hint: "The color of the sky on a stormy day"
+    },
+    {
+        word: "Black",
+        hint: "The color of space"
+    },
+    {
+        word: "Door",
+        hint: "What you open in enter a room"
+    },
+    {
+        word: "Book",
+        hint: "You read it"
     }
+ ]
+
+ const proList = [
+    {
+        word: "Gene Expression",
+        hint: "The procress in which a gene's info is turned into a function"
+    },
+    {
+        word: "Intron",
+        hint: "The genetic information that is pliced and stays in the nucleus"
+    },
+    {
+        word: "Exon",
+        hint: "The genetic info that leave that nucleus"
+    },
+    {
+        word: "Repressible Operon",
+        hint: "A gene that can be repressed"
+    },
+    {
+        word: "Inducible Operon",
+        hint: "A gene that can be started"
+    },
+    {
+        word: "2",
+        hint: "How much CO2 is produced in one turn of the Krebs Cycle"
+    },
+    {
+        word: "FADH2",
+        hint: "An electron carrier in the ETC"
+    },
+    {
+        word: "NADPH",
+        hint: "An electron donor"
+    },
+    {
+        word: "Signalling Cascade",
+        hint: "A series of molecular events within a cell that transmit a signal from the cell's surface to its interior"
+    },
+    {
+        word: "(250 + 10sqrt(5))/3",
+        hint: "What is the integral from 0 to 5 of 2x^2 + sqrt(x). (use spaces, square root = sqrt())"
+    },
+    {
+        word: "RNA",
+        hint: "A single strand of genetic information that is capable of leaving the nucleus"
+    },
+    {
+        word: "1 Kcal",
+        hint: "If producers recieve 10,000 Kcals of energy in an ecosystem, how much Kcals of energy do the quaternary consumers recieve."
+    },
+    {
+        word: "481 Decreasing",
+        hint: "The velocity of a particle is shown to be v(t) = 2x - 3x^2. The acceleration of the same particle is shown by a(t) = 2 + 6x. What is the speed at t = 13, and is the speed increasing or decreasing."
+    },
+    {
+        word: "e^3",
+        hint: "A number from 0 to 1,000,000"
+    },
+    {
+        word: "pi",
+        hint: "a number"
+    },
+    {
+        word: "3/18/1398",
+        hint: "A date before 5/21/1400"
+    },
+    {
+        word: "9/11",
+        hint: "Plane"
+    },
+    {
+        word: "(810225 * sqrt(3) - 19600 * sqrt(15)) / 252",
+        hint: "The functions f(x) = x^(1/2), g(x) = x^3 + 5, x = 1, and x = 5 are graphed on the same grid. What is the valume of the area contaiend by these functions if there is an equalateral triangle cross section. (use spaces, square root - sqrt())"
+    },
+    {
+        word: "J",
+        hint: "A letter in an alphabet"
+    },
  ]
