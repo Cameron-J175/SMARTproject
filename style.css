@@ -89,6 +89,17 @@ button {
     background-color: purple;
     color: white;
     border: white solid 1px;
+    margin-bottom: 5%;
+}
+
+.buttonB {
+    width: 30%;
+    height: 15%;
+    font-size: 1.5rem;
+    background-color: purple;
+    color: white;
+    border: none;
+    margin-left: 35%;
 }
 
 .endGame {
@@ -255,6 +266,23 @@ button {
 
 .game-modal button {
     padding: 12px 23px;
+}
+
+.baby {
+    background-image: url(/images/baby.jpg);
+}
+
+.pro {
+    /* background-image: url(/images/pro.gif); */
+    background-size: cover;
+    background-color: rgba(0,0,0,1);
+}
+
+.mode-container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
 }
 
 @media (max-width: 782px) {
