@@ -89,7 +89,7 @@ const wordList = [
     },
     {
         word: "HELP, HELP ME",
-        hint: "..."
+        hint: "Help"
     },
     {
         word: "IDK It x too hard + for - me. Better luck next time. = 573420 + 3",
@@ -258,7 +258,7 @@ const wordList = [
     {
         word: "H",
         hint: "A letter in the alphabet."
-    },
+    }
  ];
 
  const babyList = [
@@ -329,6 +329,34 @@ const wordList = [
     {
         word: "Book",
         hint: "You read it"
+    },
+    {
+        word: "Drew",
+        hint: "Who this mode is made for"
+    },
+    {
+        word: "Plane",
+        hint: "A flying vehicle"
+    },
+    {
+        word: "Car",
+        hint: "A vehicle with four wheels that drives on roads (preferably)."
+    },
+    {
+        word: "A",
+        hint: "The first letter of the alphabet"
+    },
+    {
+        word: "Big",
+        hint: "Something that is large"
+    },
+    {
+        word: "Ate",
+        hint: "Past tense of eat"
+    },
+    {
+        word: "Eat",
+        hint: "What you do to food"
     }
  ]
 
@@ -366,7 +394,7 @@ const wordList = [
         hint: "An electron donor"
     },
     {
-        word: "Signalling Cascade",
+        word: "Signaling Cascade",
         hint: "A series of molecular events within a cell that transmit a signal from the cell's surface to its interior"
     },
     {
@@ -398,7 +426,7 @@ const wordList = [
         hint: "A date before 5/21/1400"
     },
     {
-        word: "9/11",
+        word: "Boeing",
         hint: "Plane"
     },
     {
@@ -409,4 +437,32 @@ const wordList = [
         word: "J",
         hint: "A letter in an alphabet"
     },
+    {
+        word: "Tumor Supressors",
+        hint: "A gene that acts as a repressor in the cell cycle to prevent cancer"
+    },
+    {
+        word: "p53",
+        hint: "A tumor suppressor protein"
+    },
+    {
+        word: "Cyclin-dependent Kinases",
+        hint: "The enzyme that cyclin bonds to"
+    },
+    {
+        word: "Anaphylactic Shock",
+        hint: "A life threatening allergic reaction"
+    },
+    {
+        word: "Hehehehehehehehehehehehehehehehehehehehehehehehehehehehehehe!",
+        hint: "hELWU"
+    },
+    {
+        word: "EVT",
+        hint: "A continuous function on a closed interval must attain both a maximum and a minimum value on that interval"
+    },
+    {
+        word: "_",
+        hint: "A character on the keyboard"
+    }
  ]

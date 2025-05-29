@@ -45,6 +45,14 @@ button {
     justify-content: space-evenly;
 }
 
+.backButton {
+    width: 1%;
+    cursor: pointer;
+    margin-left: 95%;
+    background-color: red;
+    border: darkred solid 1px;
+}
+
 .hiddenButton {
     background: rgb(126, 2, 2);
     width: 5%;
@@ -53,9 +61,12 @@ button {
     border: rgb(133, 2, 2) solid 0.1px;
 }
 
-.buttonsContainer {
-    display: flex;
-    flex-flow: column wrap;
+.hiddenButtonHard {
+    background: rgb(0, 0, 0);
+    width: 5%;
+    height: 1rem;
+    border: none;
+    border: rgb(37, 36, 36) solid 0.1px;
 }
 
 .funButton {
@@ -68,7 +79,7 @@ button {
 
 .container {
     display: flex;
-    width: 850px;
+    width: 60rem;
     gap: 70px;
     padding: 60px 40px;
     background: #fff;
@@ -83,7 +94,7 @@ button {
 }
 
 .button {
-    width: 30%;
+    width: 80rem;
     height: 15%;
     font-size: 1.5rem;
     background-color: purple;
@@ -281,7 +292,6 @@ button {
 .mode-container {
     display: flex;
     flex-flow: column;
-    width: 100%;
     align-items: center;
 }
 
