@@ -71,7 +71,7 @@ const resetGame = () => {
 const getRandomWord = () => {
     // Selecting a random word and hint from the wordList
     const { word, hint } = babyList[Math.floor(Math.random() * babyList.length)];
-    currentWord = word.toLowerCase(); // Making currentWord as random word
+    currentWord = word.toUpperCase(); // Making currentWord as random word
     document.querySelector(".hint-text b").innerText = hint;
     resetGame();
 }
@@ -130,16 +130,16 @@ document.addEventListener(
         else {
       // Check if Shift is pressed using event.shiftKey
       if (event.shiftKey) {
-        if(currentWord.includes(event.key)) {
+        if(currentWord.includes(event.key.toUpperCase())) {
             // Showing all correct letters on the word display
             [...currentWord].forEach((letter, index) => {
-                if(letter === event.key) {
+                if(letter === event.key.toUpperCase()) {
                     correctLetters.push(letter);
                     wordDisplay.querySelectorAll("li")[index].innerText = letter;
                     wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
                 }
             });
-        }  else {
+        } else {
             // If clicked letter doesn't exist then update the wrongGuessCount and hangman image
             wrongGuessCount++;
             hangmanImage.src = `images/hangman-${wrongGuessCount}.svg`;
@@ -151,10 +151,10 @@ document.addEventListener(
         if(wrongGuessCount === maxGuesses) return gameOver(false);
         if(correctLetters.length === currentWord.length) return gameOver(true);   
       } else {
-        if(currentWord.includes(event.key)) {
+        if(currentWord.includes(event.key.toUpperCase())) {
             // Showing all correct letters on the word display
             [...currentWord].forEach((letter, index) => {
-                if(letter === event.key) {
+                if(letter === event.key.toUpperCase()) {
                     correctLetters.push(letter);
                     wordDisplay.querySelectorAll("li")[index].innerText = letter;
                     wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
@@ -170,10 +170,10 @@ document.addEventListener(
     
         // Calling gameOver function if any of these condition meets
         if(wrongGuessCount === maxGuesses){ 
-            return gameOver(false);
+            return gameOver(false);            
         }
         if(correctLetters.length === currentWord.length){ 
-            return gameOver(true); 
+            return gameOver(true);
         }
       }
     }

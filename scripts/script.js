@@ -163,7 +163,6 @@ document.addEventListener(
                     wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
                 }
             });
-            letter.preventDefault()
         }  else {
             // If clicked letter doesn't exist then update the wrongGuessCount and hangman image
             wrongGuessCount++;
@@ -176,8 +175,8 @@ document.addEventListener(
         if(wrongGuessCount === maxGuesses){ 
             return gameOver(false);            
         }
-        if(correctLetters.length >= currentWord.length){ 
-            alert("Hello") 
+        if(correctLetters.length === currentWord.length){ 
+            return gameOver(true);
         }
       }
     }
